@@ -1,0 +1,83 @@
+.partfolio {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 199px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.partfolio h1 {
+    font-size: 52px;    
+    font-weight: 600;
+    margin-bottom: -40px;
+}
+
+.partfolio span{
+    width: 70px;
+    height: 12px;
+    border-radius: 4px;
+    /* margin-bottom: 20px; */
+    background-color: var(--orange-yellow-crayola);
+}
+.part__cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.part__card img{
+    width: 335px;
+    height: 200px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.part__card{
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+    align-items: start;    
+    /* padding: 15px; */
+    
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.part__card h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-block: 10px;
+}
+.part__card p{
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--light-gray);
+}
+.part__card img:hover{
+    transform: scale(1.05);
+}
+.part__card:hover > .part__card:not(:hover) {
+    transform: scale(0.9,0.9);
+    filter: blur(10px);
+}
+@media (max-width: 768px){
+    .part__cards{
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .part__card img{
+        width: 300px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 468px) {
+    .part__cards{
+        justify-content: center;
+    }
+    .part__card img{
+        width: 350px;
+        height: 230px;
+    }
+}
