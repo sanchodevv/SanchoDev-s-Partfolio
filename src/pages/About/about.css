@@ -169,10 +169,10 @@
     /* text-align: center; */
 }
 .swiper__imgs img{
-    width: 250px;
+    width: 200px;
     background-color: transparent;
     overflow: hidden;
-    height: 250px;
+    height: 200px;
 }
 
 .clients{

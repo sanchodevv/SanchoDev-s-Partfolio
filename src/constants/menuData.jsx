@@ -7,17 +7,17 @@ export const MenuData = [
     
     {
         key: 2,
-        path: "./portfolio",
+        path: "/portfolio",
         name: "Portfolio",
     },
     {
         key: 3,
-        path: "./blog",
+        path: "/blog",
         name: "Blog",
     },
     {
         key: 4,
-        path: "./contact",
+        path: "/contact",
         name: "Contact",
     },
 ];

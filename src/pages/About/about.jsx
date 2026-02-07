@@ -1,8 +1,7 @@
 import "./about.css";
-import myImage from "../../assets/404.jpg";
+// import myImage from "../../assets/404.jpg";
 import React from "react";
-// import React, { useRef, useState } from 'react';
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -13,6 +12,8 @@ import "swiper/css/scrollbar";
 
 // import required modules
 import { Scrollbar } from "swiper/modules";
+
+
 
 const About = () => {
     return (
@@ -39,7 +40,7 @@ const About = () => {
                         <div className='one'>
                             {" "}
                             <div className='doing__card'>
-                                <img src='../src/assets/icon-dev.svg' alt='' />
+                                <img src="/icon-dev.svg" alt='' />
                                 <div>
                                     <h5>Frontend Programming</h5>
                                     <p>
@@ -50,7 +51,7 @@ const About = () => {
                             </div>
                             <div className='doing__card'>
                                 <img
-                                    src='../src/assets/icon-design.svg'
+                                    src="/icon-design.svg"
                                     alt=''
                                 />
                                 <div>
@@ -64,7 +65,7 @@ const About = () => {
                         </div>
                         <div className='two'>
                             <div className='doing__card'>
-                                <img src='../src/assets/icon-app.svg' alt='' />
+                                <img src="/icon-app.svg" alt='' />
                                 <div>
                                     <h5>Making Edits</h5>
                                     <p>
@@ -75,7 +76,7 @@ const About = () => {
                             </div>
                             <div className='doing__card'>
                                 <img
-                                    src='../src/assets/icon-photo.svg'
+                                    src="/icon-photo.svg"
                                     alt=''
                                 />
                                 <div>
@@ -176,14 +177,17 @@ const About = () => {
                                 alt=''
                             />
                             {/* <img src={myImage} alt='' /> */}
-                            <img src={null} alt='' />
+                            <img src="/public/404.png" alt='' />
+                            <img src="/public/404.png" alt='' />
+                            <img src="/public/404.png" alt='' />
+                            <img src="/public/404.png" alt='' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='swiper__imgs'>
-                            <img src={null} alt='' />
-                            <img src={null} alt='' />
-                            <img src={null} alt='' />
+                            <img src="/public/404.png" alt='' />
+                            <img src="/public/404.png" alt='' />
+                            <img src="/public/404.png" alt='' />
                         </div>
                     </SwiperSlide>
                 </Swiper>
