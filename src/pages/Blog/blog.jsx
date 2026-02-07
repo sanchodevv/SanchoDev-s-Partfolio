@@ -7,7 +7,7 @@ const Blog = () => {
             <span></span>
             <div className="blog__cards">
                 <div className="blog__card">
-                    <img src="../public/blog1.jpg" alt="" />
+                    <img src="/blog1.jpg" alt="" />
                     <h5>It Park | Aug 28, 2025 </h5>
                     <h2>Get Certifiticate by It Park</h2>
                     <p>This day i get my frontend programming certificate. This is a great achievement for me.</p>
