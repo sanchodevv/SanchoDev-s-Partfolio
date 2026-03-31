@@ -6,11 +6,14 @@ import MenuBar from "./components/menuBar/menuBar";
 const App = () => {
     return (
         <>
-            <div className='wrap'>
+            <div className='wrap container  '>
                 <Aside />
                 <main className='main'>
-                    <MenuBar />
-                    <Routes>
+                    <header>
+                        <MenuBar />
+                    </header>
+                    <div className="mainContainer">
+                        <Routes>
                         {routes.map((route, index) => (
                             <Route
                                 key={index}
@@ -19,6 +22,7 @@ const App = () => {
                             />
                         ))}
                     </Routes>
+                    </div>
                 </main>
 
             </div>

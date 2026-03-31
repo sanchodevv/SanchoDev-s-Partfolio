@@ -93,46 +93,8 @@ const About = () => {
             </section>
             <section className='test'>
                 <h1>Testimonials</h1>
-                <Swiper
-                    scrollbar={{
-                        hide: true,
-                    }}
-                    modules={[Scrollbar]}
-                    className='mySwiper'>
-                    <SwiperSlide>
-                        <div>
-                            <div className='test__card'>
-                                <div className="test__img">
-                                        <img src="/test1.jpg" alt='' />
-                                    </div>
-                                
-                                <div className='card__info'>
-                                    <h1>Ismoil Rz</h1>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Quisquam, quod.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='test__card'>
-                                <div className="test__img">
-                                        <img src="/test2.jpg" alt='' />
-                                    </div>
-                                
-                                <div className='card__info'>
-                                    <h1>Sadulla</h1>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Quisquam, quod.
-                                    </p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <div className='test__card'>
+                <div className="test__cards">
+                    <div className='test__card'>
                                 <div className="test__img">
                                         <img src="/test3.jpg" alt='' />
                                     </div>
@@ -144,117 +106,67 @@ const About = () => {
                                         adipisicing elit. Quisquam, quod.
                                     </p>
                                 </div>
-                            </div>
-                            <div className='test__card'>
+                    </div>
+                    <div className='test__card'>
                                 <div className="test__img">
-                                        <img src="/test1.jpg" alt='' />
+                                        <img src="/test3.jpg" alt='' />
                                     </div>
                                 
                                 <div className='card__info'>
-                                    <h1>Ismoil Rz</h1>
+                                    <h1>Ibrohim</h1>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit. Quisquam, quod.
                                     </p>
                                 </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                </Swiper>
-            </section>
-            <section className='clients'>
-                <h1>Clients</h1>
-                <Swiper
-                    scrollbar={{
-                        hide: true,
-                    }}
-                    modules={[Scrollbar]}
-                    className='mySwiper'>
-                    <SwiperSlide>
-                        <div className='swiper__imgs'>
-                            <img
-                                src='https://api.logobank.uz/media/logos_png/IT_park-01.png'
-                                alt=''
-                            />
-                            {/* <img src={myImage} alt='' /> */}
-                            <img src="/public/404.png" alt='' />
-                            <img src="/public/404.png" alt='' />
-                            <img src="/public/404.png" alt='' />
-                            <img src="/public/404.png" alt='' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='swiper__imgs'>
-                            <img src="/public/404.png" alt='' />
-                            <img src="/public/404.png" alt='' />
-                            <img src="/public/404.png" alt='' />
-                        </div>
-                    </SwiperSlide>
-                </Swiper>
-            </section>
-            <section className="skills">
-                <h1>My Skills</h1>
-                <div className="skill__content">
-                    <div className="html">
-                        <h3>HTML</h3>
-                        <div className="uno">
-                            <span></span>
-                            <p>95%</p>
-                        </div>
                     </div>
-                    <div className="css">
-                        <h3>CSS</h3>
-                        <div className="uno">
-                            <span></span>
-                            <p>75%</p>
-                        </div>
+                    <div className='test__card'>
+                                <div className="test__img">
+                                        <img src="/test3.jpg" alt='' />
+                                    </div>
+                                
+                                <div className='card__info'>
+                                    <h1>Ibrohim</h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam, quod.
+                                    </p>
+                                </div>
                     </div>
-                    <div className="js">    
-                        <h3>JavaScript</h3>
-                        <div className="uno">
-                            <span></span>
-                            <p>60%</p>
-                        </div>
-                    </div>
-                    <div className="react">
-                        <h3>React</h3>
-                        <div className="uno">
-                            <span></span>
-                            <p>50%</p>
-                        </div>
-                    </div>
-                    <div className="figma">
-                        <h3>Figma</h3>
-                        <div className="uno">
-                            <span></span>
-                            <p>65%</p>
-                        </div>
-                    </div>
-                    <div className="typescript">
-                        <h3>TypeScript</h3>
-                        <div className="uno">
-                            <span></span>
-                            <p>35%</p>
-                        </div>
-                    </div>
-                   
-                    <div className="bootstrap">
-                        <h3>Bootstrap</h3>
-                        <div className="uno">
-                            <span></span>
-                            <p>65%</p>
-                        </div>
-                    </div>
-                    
-                    <div className="github">
-                        <h3>GitHub</h3>
-                        <div className="uno">
-                            <span></span>
-                            <p>75%</p>
-                        </div>
+                    <div className='test__card'>
+                                <div className="test__img">
+                                        <img src="/test3.jpg" alt='' />
+                                    </div>
+                                
+                                <div className='card__info'>
+                                    <h1>Ibrohim</h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quisquam, quod.
+                                    </p>
+                                </div>
                     </div>
                 </div>
             </section>
+            <section className='clients'>
+                <h1>Clients</h1>
+                <div className="swiper__imgs">
+                    <img
+                        src='https://api.logobank.uz/media/logos_png/IT_park-01.png'
+                        alt=''
+                    />
+                    <img src="/404.png" alt="" />
+                    <img src="/404.png" alt="" />
+                    <img src="/404.png" alt="" />
+                    <img src="/404.png" alt="" />
+                    <img src="/404.png" alt="" />
+                    <img src="/404.png" alt="" />
+                    <img src="/404.png" alt="" />
+                    <img src="/404.png" alt="" />
+                    <img src="/404.png" alt="" />
+                </div>
+            </section>
+            
         </>
     );
 };

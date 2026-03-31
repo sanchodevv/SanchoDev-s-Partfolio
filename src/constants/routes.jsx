@@ -2,6 +2,7 @@ import About from "../pages/About/about";
 import Blog from "../pages/Blog/blog";
 import Contact from "../pages/Contact/contact";
 import Partfolio from "../pages/Partfolio/partfolio";
+import Resume from "../pages/Resume/resume";
 
 
 export const routes = [
@@ -20,6 +21,11 @@ export const routes = [
         key: 2,
         path: "/portfolio",
         element: <Partfolio />,
+    },
+    {
+        key: 5,
+        path: "/resume",
+        element: <Resume />,
     },
     {
         key: 3,

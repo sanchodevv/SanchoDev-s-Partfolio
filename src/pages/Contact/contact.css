@@ -8,6 +8,7 @@
     font-weight: 600;
     margin-bottom: -40px;
     margin-left: 48px;
+    margin-top: -90px;
 }
 .contact span{
     width: 70px;
@@ -39,7 +40,7 @@
     justify-content: space-evenly;
 }
 .contact__form input{
-    width: 525px;
+    width: 473px;
     height: 80px;
     border-radius: 10px;
     border: 1px solid var(--jet);
@@ -47,7 +48,7 @@
     font-size: 16px;
 }
 .contact__form textarea{
-    width: 1085px;
+    width: 975px;
     height: 150px;
     border-radius: 10px;
     border: 1px solid var(--jet);
@@ -66,23 +67,63 @@
     top: 20pX;
     margin-block: 50px;
 
-    left: 580px;
+    left: 480px;
     padding-left: 10px;
     cursor: pointer;
     color: var(--orange-yellow-crayola);
 }
-@media (max-width: 468px){
-    .map figure iframe{
-        width: 775px;
+@media (max-width: 768px) {
+    .contact {
+        margin-left: 12px;
+        margin-right: 12px;
     }
-    .contact__form input{
-        width: 375px;
+    .contact h1 {
+        font-size: 32px;
+        margin-left: 0;
+        margin-top: 0;
     }
-    .contact__form textarea{
-        width: 775px;
+    .map figure iframe {
+        width: 100%;
+        max-width: 720px;
+        height: 320px;
     }
-    .contact button{
-        left: 280px;
-        bottom: 20px;
+    .contact__form input,
+    .contact__form textarea {
+        width: 100%;
+        max-width: 720px;
+    }
+    .contact button {
+        position: static;
+        margin: 20px 0 30px;
+        left: auto;
+        bottom: auto;
+    }
+}
+
+@media (max-width: 468px) {
+    .contact {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .contact h1 {
+        font-size: 28px;
+    }
+    .map figure iframe {
+        width: 100%;
+        height: 220px;
+    }
+    .contact__form input,
+    .contact__form textarea {
+        width: 100%;
+    }
+    .contact__form div {
+        display: block;
+        gap: 14px;
+    }
+    .contact button {
+        width: 100%;
+        max-width: 320px;
+        margin: 18px auto;
+        left: 0;
     }
 }
